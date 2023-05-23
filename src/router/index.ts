@@ -13,7 +13,7 @@ import TeamUpdate from '@/pages/TeamUpdatePage.vue'
 // 也可以从其他文件导入
 const routes = [
     { path: '/', meta: { title: '主页' }, component: Index },
-    { path: '/Login', meta: { title: '登陆' }, component: UserLogin },
+    { path: '/login', meta: { title: '登陆' }, component: UserLogin },
     { path: '/team', meta: { title: '队伍' }, component: Team },
     { path: '/user', meta: { title: '个人信息' }, component: User },
     { path: '/search', meta: { title: '找人' }, component: Search },

@@ -1,8 +1,9 @@
 import axios from 'axios'
-
+const isDev = process.env.NODE_ENV === 'development'
+console.log(process.env.NODE_ENV)
 const myAxios = axios.create({
     //可以配置根据环境改变url
-    baseURL: 'http://localhost:8080',
+    baseURL: isDev ? 'http://localhost:8080' : 'https://iwindy.cn',
 })
 //跨域携带cookie
 myAxios.defaults.withCredentials = true

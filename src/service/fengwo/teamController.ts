@@ -1,5 +1,5 @@
 /* eslint-disable */
-import request from '@/plugins/myAxois';
+import request from '@/plugins/myAxios';
 
 /** 添加队伍 POST /team/add */
 export async function addTeamUsingPOST(body: API.TeamAddRequest, options?: { [key: string]: any }) {

@@ -1,5 +1,5 @@
 /* eslint-disable */
-import request from '@/plugins/myAxois';
+import request from '@/plugins/myAxios';
 
 /** 获取当前用户 GET /user/current */
 export async function getCurrentUserUsingGET(options?: { [key: string]: any }) {
